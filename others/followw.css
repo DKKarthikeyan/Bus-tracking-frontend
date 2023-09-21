@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    border: 5px solid black;
+}
+.facebook{
+    transition: upp 0.5s linear forwards;
+    font-size: 40px;
+    width: 50px;
+    
+}
+.instagram{
+    transition: upp 0.5s linear forwards;
+    font-size: 40px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+}
+
+.twitter{
+    padding-right: 10px;
+    padding-left: 3px;
+    font-size: 40px;
+    width: 36px;
+    text-align: center;
+    transition: upp 0.5s linear forwards;
+}
+.youtube{
+    transition: upp 0.5s linear forwards;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    
+}
+.facebook:hover{
+    transform: translate(0,-10%);
+    background-color: #3b5998;
+}
+.instagram:hover{
+    transform: translate(0,-10%);
+    background:linear-gradient(45deg,#e95950,#fbad50,#fccc63,#bc2a8d,#cd486b,#8a3ab9);
+}
+.twitter:hover{
+    transform: translate(0,-10%);
+    background-color: #00acee;
+
+}
+.youtube:hover{
+    transform: translate(0,-10%);
+    background-color: red;
+   
+}
+
+#you:hover{
+    color: white;
+    background-color: red;
+}
